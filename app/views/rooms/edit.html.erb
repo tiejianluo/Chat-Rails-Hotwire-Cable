@@ -1,0 +1,8 @@
+<h1>修改聊天室名称</h1>
+
+<%= turbo_frame_tag "room" do %>
+  <%= render 'form', room: @room %>
+<% end %>
+
+<%= link_to '进入聊天室', @room %> |
+<%= link_to '回到聊天室列表', rooms_path %>
