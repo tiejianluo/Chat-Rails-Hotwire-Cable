@@ -1,7 +1,7 @@
 # README
 参考：https://www.hotrails.dev/turbo-rails/crud-controller-ruby-on-rails
-# 运行是一定要启动 brew services start redis   （Mac机器），
-# 用命令：ps -A |grep redis     检查是否启动，看到类似下面信息（在你的机器中，前面的进程号不一样）                                           
+# 运行软件时，需要安装并启动redis进程，Mac机器上的启动命令为：brew services start redis ，
+# 然后用命令：ps -A |grep redis     检查是否启动成功。是否看到下面信息，在你机器中，进程号会不一样。                                           
 51865 ??         2:53.91 /opt/homebrew/opt/redis/bin/redis-server 127.0.0.1:6379 
 84466 ttys001    0:00.00 grep redis
 
